@@ -1,0 +1,27 @@
+#Creating a simple calculator using python3 in a very easy and new way
+def add(x,y):
+    result=x+y
+    return a
+def sub(x,y):
+    result=x-y
+    return b
+def mul(x,y):
+    result=x*y
+    return c
+def div(x,y):
+    result=x/y
+    return d
+x=int(input("Enter the value of x: "))
+y=int(input("Enter the value of y: "))
+op=input("Enter the operator: ")
+if op=="+":
+    result=x+y
+elif op=="-":
+    result=x-y
+elif op=="*":
+    result=x*y
+elif op=="/":
+    result=x/y
+else:
+    print("Invalid operator")
+print(result)
